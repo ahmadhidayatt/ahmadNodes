@@ -35,7 +35,7 @@ services:
       - ocean_network
     volumes:
       - typesense-data:/data
-    command: '--data-dir /data --api-key={typesense_api_key} --enable-authentication=true --admin-password={admin_password} --http-max-concurrent-requests=2000 --memory-mapped-indexes=true'
+    command: '--data-dir /data --api-key={typesense_api_key} --enable-authentication=true --admin-password={admin_password} '
 volumes:
   typesense-data:
     driver: local
