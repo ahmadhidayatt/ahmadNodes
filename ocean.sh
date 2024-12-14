@@ -38,12 +38,14 @@ print_telegram_icon() {
 }
 
 display_ascii() {
-    echo -e "    ${RED}    ____  __ __    _   ______  ____  ___________${RESET}"
-    echo -e "    ${GREEN}   / __ \\/ //_/   / | / / __ \\/ __ \\/ ____/ ___/${RESET}"
-    echo -e "    ${BLUE}  / / / / ,<     /  |/ / / / / / / / __/  \\__ \\ ${RESET}"
-    echo -e "    ${YELLOW} / /_/ / /| |   / /|  / /_/ / /_/ / /___ ___/ / ${RESET}"
-    echo -e "    ${MAGENTA}/_____/_/ |_|  /_/ |_/\____/_____/_____//____/  ${RESET}"
+    echo -e "    ${RED}    _    _   _   _   _   _   ___   ____   _____ ${RESET}"
+    echo -e "    ${GREEN}   / \\  | \\ | | | \\ | | / _ \\ |  _ \\ | ____|${RESET}"
+    echo -e "    ${BLUE}  / _ \\ |  \\| | |  \\| || | | || | | ||  _|  ${RESET}"
+    echo -e "    ${YELLOW} / ___ \\| |\\  | | |\\  || |_| || |_| || |___ ${RESET}"
+    echo -e "    ${MAGENTA}/_/   \_\\_| \\_| |_| \\_| \\___/ |____/ |_____|${RESET}"
 }
+
+
 
 # Function to get IP address
 get_ip_address() {
